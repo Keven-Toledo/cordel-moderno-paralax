@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.rodapé {
+  background-color: var(--cor__principal);
+  color: var(--cor__secundaria);
+  text-align: center;
+}
+
+.rodapé__texto {
+  padding: 15px;
+}

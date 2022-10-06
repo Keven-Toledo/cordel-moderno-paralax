@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.container__normal {
+  background-color: var(--cor__secundaria);
+  color: var(--cor__principal);
+  padding: 10vh 0;
+  padding-left: 1em;
+}

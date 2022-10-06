@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.cabeçalho {
+  background-color: var(--cor__principal);
+  color: var(--cor__secundaria);
+  text-align: center;
+}
+
+.cabeçalho__titulo {
+  font-variant: small-caps;
+  font-family: var(--fonte__titulo);
+  font-size: clamp(3em, 7.5vw, 5em);
+  padding: 50px 0 0;
+}
+
+.cabeçalho__subtitulo {
+  padding-bottom: 50px;
+}
+
+a {
+  color: var(--cor__secundaria);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
